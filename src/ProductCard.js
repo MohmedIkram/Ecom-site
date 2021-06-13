@@ -23,11 +23,10 @@ function ProductCard({ Productlist }) {
         <CardMedia component="img" alt="" height="140" image="" title="" />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            {product.name}
+            {Productlist.name}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+            {Productlist.discription}
           </Typography>
         </CardContent>
       </CardActionArea>
