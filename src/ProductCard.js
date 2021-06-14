@@ -14,7 +14,7 @@ const useStyles = makeStyles({
   },
 });
 
-function ProductCard({ Productlist }) {
+function ProductCard(props) {
   const classes = useStyles();
 
   return (
