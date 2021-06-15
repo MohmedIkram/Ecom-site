@@ -1,7 +1,7 @@
 import React from "react";
 import ProductCard from "./ProductCard";
 
-const ProductData = (props) => {
+function ProductData() {
   const productlist = [
     { id: 1, name: "laptop", discription: "apple laptop", price: "rs 7000" },
     { id: 2, name: "mobile", discription: "apple mobile", price: "rs 3000" },
@@ -19,6 +19,6 @@ const ProductData = (props) => {
       </grid>
     </main>
   );
-};
+}
 
 export default ProductData;

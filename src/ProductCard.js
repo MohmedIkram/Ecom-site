@@ -23,10 +23,10 @@ function ProductCard(props) {
         <CardMedia component="img" alt="" height="140" image="" title="" />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            {Productlist.name}
+            {props.Productlist.name}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            {Productlist.discription}
+            {props.Productlist.discription}
           </Typography>
         </CardContent>
       </CardActionArea>
