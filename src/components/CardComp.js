@@ -24,7 +24,7 @@ export function CardComp({ item, setItem }) {
         <Row>
           <CardDeck>
             {CardData.map((data, index) => {
-              const { id, title, ratings, striked, price, sale, options } =
+              const { id, title, ratings, striked, price, sale, options} =
                 data;
 
               return (
